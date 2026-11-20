@@ -80,6 +80,8 @@ namespace SlotGame.Core
         {
             int next = Math.Max(0, Math.Min(betOptions.Count - 1, betIndex + Math.Sign(direction)));
             if (next == betIndex) return;
+            // Don't let the player raise the stake above what they can pay (free spins are exempt).
+            if (direction > 0 && FreeSpins == 0 && betOptions[next] > Balance) return;
             betIndex = next;
             BetChanged?.Invoke(CurrentBet);
         }

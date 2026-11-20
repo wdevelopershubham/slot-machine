@@ -9,7 +9,7 @@ namespace SlotGame.UI
     /// <summary>
     /// Heads-up display: credits, bet, last win, free spins, status line and the
     /// bet / auto-play / mute controls. It only presents data and raises click events;
-    /// all decisions live in <see cref="SlotGameManager"/>.
+    /// all decisions live in <see cref="SlotGame.Core.SlotGameManager"/>.
     /// </summary>
     public sealed class HudView : MonoBehaviour
     {
