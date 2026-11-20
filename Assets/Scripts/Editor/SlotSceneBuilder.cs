@@ -535,7 +535,7 @@ namespace SlotGame.EditorTools
             else if (value is Object[] array)
             {
                 prop.arraySize = array.Length;
-                for (int i = 0; i < array.Length; i++) prop.GetArrayElementAtIndex(i).objectReferenceValue = array[i];
+                for (int index = 0; index < array.Length; index++) prop.GetArrayElementAtIndex(index).objectReferenceValue = array[index];
             }
             else if (value is Object unityObject) prop.objectReferenceValue = unityObject;
             else if (value is int i) prop.intValue = i;
