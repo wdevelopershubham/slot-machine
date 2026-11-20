@@ -1,0 +1,24 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+# IDE
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
+# Builds: keep the WebGL build (required by the assignment), ignore the rest
+[Bb]uilds/
+*.apk
+*.unitypackage
