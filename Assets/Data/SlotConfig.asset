@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c0611765a96184abb82e61b35d16df, type: 3}
+  m_Name: SlotConfig
+  m_EditorClassIdentifier: 
+  symbols:
+  - {fileID: 11400000, guid: 19a2bee0153eff44f890cfe312f1a6c6, type: 2}
+  - {fileID: 11400000, guid: 9de225d260592394da2a41a6d37860a3, type: 2}
+  - {fileID: 11400000, guid: 6e9a524dd72b6e94bb6b6ed4483123b6, type: 2}
+  - {fileID: 11400000, guid: af824aa127e85f94090c5d4112836eaa, type: 2}
+  luckyPairForFreeSpin: 2
+  startingCredits: 1000
+  betOptions: 050000000a000000190000003200000064000000
+  defaultBetIndex: 1
+  spinSpeed: 20
+  spinUpTime: 0.35
+  minSpinTime: 1
+  reelStopInterval: 0.45
+  decelerationRows: 5
+  overshoot: 0.15
+  settleTime: 0.22
+  winPopupSeconds: 2.2
+  jackpotPopupSeconds: 4
+  autoPlayDelay: 0.8
+  seed: 0
