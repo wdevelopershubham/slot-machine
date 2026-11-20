@@ -531,7 +531,8 @@ namespace SlotGame.EditorTools
             SerializedProperty prop = so.FindProperty(field);
             if (prop == null) { Debug.LogError($"[Slots] Field '{field}' not found on {target.GetType().Name}"); return; }
 
-            if (value is Object[] array)
+            if (value == null) prop.objectReferenceValue = null;
+            else if (value is Object[] array)
             {
                 prop.arraySize = array.Length;
                 for (int i = 0; i < array.Length; i++) prop.GetArrayElementAtIndex(i).objectReferenceValue = array[i];
